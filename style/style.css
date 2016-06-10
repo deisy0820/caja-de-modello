@@ -4,6 +4,7 @@
          url('Fonts/dk_moonlight_serenade-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    color: #0BFF00;
 
 }
 
@@ -13,15 +14,16 @@ body {
 }
 
 div {
-	background-color: #FF804C;
+	background-image: url('WTM_logo1.png');
+	background-size: contain;
 	display: inline-block;
 	height: 250px;
-	width: 30%;
+	width: 20%;
 	float: left;
 	overflow: hidden;
 
 	padding: 25px;
-	border: 5px solid #2AE2AE;
+	border: 5px solid #4CF1FF;
 	margin: 10px;
 }
 
