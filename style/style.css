@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'fuente nueva';
+    src: url('Fonts/dk_moonlight_serenade-webfont.woff2') format('woff2'),
+         url('Fonts/dk_moonlight_serenade-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'fuente nueva', sans-serif, serif, courier, impact, arial;
+	font-size: 20px;
+}
+
+div {
+	background-color: #FF804C;
+	display: inline-block;
+	height: 250px;
+	width: 30%;
+	float: left;
+	overflow: hidden;
+
+	padding: 25px;
+	border: 5px solid #2AE2AE;
+	margin: 10px;
+}
+
+ span {
+ 	display: inline-block;
+ 	width: 10%;
+ 	float: right;
+ }
